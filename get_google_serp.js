@@ -1,0 +1,1 @@
+javascript:s='';f = document.querySelectorAll(".g");Array.prototype.forEach.call(f, function(el,i){ d = el.querySelectorAll(".r a"); if(d[0]) s+=d[0].getAttribute('href')+'\n';});console.info(s);
